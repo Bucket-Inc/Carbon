@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Carbon',
+    name='carbon',
     version='0.0.1',
     packages=find_packages(),
     author='Bucket-Inc',
@@ -16,8 +16,6 @@ setup(
         'Operating System :: OS Independent',
     ],
     install_requires=[
-        'rich',
-        'shlew',
-        'json',  # No specific version requirement for requests
+        'rich',  # No specific version requirement for requests
     ],
 )
